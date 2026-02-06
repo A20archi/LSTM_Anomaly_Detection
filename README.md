@@ -110,3 +110,11 @@ Evaluation on labeled benchmark datasets
 
 ## 10. Conclusion
 This project demonstrates how unsupervised deep learning models can be applied to anomaly detection in time-series data where labeled anomalies are scarce. The modular design allows for easy extension and experimentation with more advanced techniques.
+
+## Visual Results
+
+### Detected Anomalies
+![Detected Anomalies](results/plots/detected_anomalies.png)
+
+### Reconstruction Error and Threshold
+![Reconstruction Error](results/plots/reconstruction_error.png)
