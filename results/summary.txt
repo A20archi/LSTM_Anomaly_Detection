@@ -1,0 +1,3 @@
+Threshold used: mean + 3 * std
+Total detected anomalies: 244
+Reason: balances sensitivity vs false positives without labels
