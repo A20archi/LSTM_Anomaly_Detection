@@ -82,7 +82,8 @@ lstm-anomaly-detection/
 │   └── detect.py
 ├── requirements.txt
 └── README.md
-7. How to Run
+```
+## 7. How to Run
 Install dependencies
 pip install -r requirements.txt
 Train the model
@@ -91,14 +92,14 @@ Detect anomalies
 python src/detect.py
 All plots and summaries are automatically saved in the results/ directory.
 
-8. Limitations
+## 8. Limitations
 Static thresholding may not adapt to concept drift
 
 Offline batch processing only
 
 Limited to univariate time-series data
 
-9. Future Improvements
+## 9. Future Improvements
 Adaptive or percentile-based thresholding
 
 Multivariate time-series support
@@ -107,5 +108,5 @@ Online anomaly detection
 
 Evaluation on labeled benchmark datasets
 
-10. Conclusion
+## 10. Conclusion
 This project demonstrates how unsupervised deep learning models can be applied to anomaly detection in time-series data where labeled anomalies are scarce. The modular design allows for easy extension and experimentation with more advanced techniques.
